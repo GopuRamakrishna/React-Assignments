@@ -1,0 +1,33 @@
+.header,.image,.inul{
+    display:flex;
+    justify-content: space-around;
+    display: flex;
+    /* margin-top: 30px;; */
+    background: #40A798;
+}
+.inul,.image{
+    margin-top: 30px;;
+    list-style-type: none;
+    gap:30px;
+}
+.container,.divi{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-evenly;
+    gap:30px;
+    margin-bottom:30px;
+}
+.divi{
+    height:580px;
+    align-items: center;
+    padding:10px;
+    gap:20px;   
+    flex-direction: column;
+    box-shadow:1px 2px 1px 2px gray;
+    border-radius:16px;
+}
+
+.divi button{
+    width:110px;
+}
+

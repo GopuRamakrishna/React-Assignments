@@ -1,0 +1,17 @@
+.cont{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.one{
+    box-shadow:1px 1px 2px 1px gray;
+    border-radius:16px;
+    align-items: center;
+    padding:15px;
+    display:flex;
+    width:350px;
+    height:450px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

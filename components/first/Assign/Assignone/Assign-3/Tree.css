@@ -1,0 +1,35 @@
+.navi{
+    display:flex;
+    /* justify-content: space-between; */
+    gap:840px;
+}
+.navi ul{
+    display:flex;
+   gap:80px
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.divi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+   border-radius:16px;
+    box-shadow:2px 2px 4px 2px gray;
+    padding:10px;
+}
+.foot{
+    display:flex;
+    background: rgb(140, 152, 153);
+    padding:16px;
+    margin-top:30px;
+    justify-content: space-around;
+}
+.foot ul li{
+    list-style-type: none;
+}
